@@ -145,7 +145,7 @@ export default function SignupPage() {
 
               <div className="space-y-2">
                 <Label>I am a:</Label>
-                <RoleSelect value={role} onChange={setRole} />
+                <RoleSelect value={role} onValueChange={setRole} />
               </div>
 
               <Button type="submit" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
